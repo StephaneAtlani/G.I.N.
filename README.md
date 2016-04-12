@@ -1,5 +1,6 @@
 # G.I.N.
-Générateur d'idée pour vos nouvelles et romans
+Générateur d'idée pour vos nouvelles et romans.
+
 L’outil est actuellement en cours de portage sur le framework cakephp 3.2 (www.cakephp.org)
 
 Version actuelle : Prototype
