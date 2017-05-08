@@ -9,6 +9,13 @@ use Cake\ORM\Rule\IsUnique;
 
 class ProtagonistesTable extends Table
 {
+    
+    public function initialize(array $config)
+    {
+        //Permet de gérer les created et les modified
+        $this->addBehavior('Timestamp');
+    }
+
 	public function validationDefault(Validator $validator)
     {
         $validator
