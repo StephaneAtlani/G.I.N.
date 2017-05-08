@@ -1,0 +1,1752 @@
+2017-05-07 16:20:25 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found.
+Exception Attributes: array (
+  'url' => '/',
+)
+Request URL: /
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Router.php(368): Cake\Routing\RouteCollection->parseRequest(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(48): Cake\Routing\Router::parseRequest(Object(Cake\Http\ServerRequest))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\index.php(16): require('C:\\Users\\satlan...')
+#11 {main}
+
+
+2017-05-07 16:20:42 Error: [Cake\Routing\Exception\MissingRouteException] A route matching "/" could not be found.
+Exception Attributes: array (
+  'url' => '/',
+)
+Request URL: /
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Router.php(368): Cake\Routing\RouteCollection->parseRequest(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(48): Cake\Routing\Router::parseRequest(Object(Cake\Http\ServerRequest))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\index.php(16): require('C:\\Users\\satlan...')
+#11 {main}
+
+
+2017-05-07 16:30:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/js/toolbar-app.js
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/0c89b8e0-4f6f-4856-97d9-236829918fae
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/img/cake.icon.png
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/0c89b8e0-4f6f-4856-97d9-236829918fae
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/js/jquery.js
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/0c89b8e0-4f6f-4856-97d9-236829918fae
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:43 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/js/debug_kit.js
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/0c89b8e0-4f6f-4856-97d9-236829918fae
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/css/toolbar.css
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/0c89b8e0-4f6f-4856-97d9-236829918fae
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:44 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/css/reset.css
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/0c89b8e0-4f6f-4856-97d9-236829918fae
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:45 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/js/toolbar-app.js
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/0c89b8e0-4f6f-4856-97d9-236829918fae
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/js/jquery.js
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/a8357e61-8205-4b40-84f1-dc4b1dbb2c1a
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/css/toolbar.css
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/a8357e61-8205-4b40-84f1-dc4b1dbb2c1a
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/img/cake.icon.png
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/a8357e61-8205-4b40-84f1-dc4b1dbb2c1a
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/js/debug_kit.js
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/a8357e61-8205-4b40-84f1-dc4b1dbb2c1a
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/css/reset.css
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/a8357e61-8205-4b40-84f1-dc4b1dbb2c1a
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/js/toolbar-app.js
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/a8357e61-8205-4b40-84f1-dc4b1dbb2c1a
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:30:47 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Webroot could not be found.
+Exception Attributes: array (
+  'class' => 'Webroot',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /webroot/debug_kit/js/debug_kit.js
+Referer URL: http://gin.localhost/webroot/index.php/debug_kit/toolbar/a8357e61-8205-4b40-84f1-dc4b1dbb2c1a
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:31:02 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Protagonist could not be found.
+Exception Attributes: array (
+  'class' => 'Protagonist',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /Protagonist
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:31:04 Error: [Cake\Controller\Exception\MissingActionException] Action ProtagonistesController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProtagonistesController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => false,
+)
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProtagonistesController))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:31:53 Error: [Cake\Controller\Exception\MissingActionException] Action ProtagonistesController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProtagonistesController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => false,
+)
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProtagonistesController))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:33:47 Error: [Cake\Controller\Exception\MissingActionException] Action ProtagonistesController::index() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProtagonistesController',
+  'action' => 'index',
+  'prefix' => '',
+  'plugin' => false,
+)
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProtagonistesController))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:35:36 Error: [Cake\View\Exception\MissingTemplateException] Template file "Protagonistes\index.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Protagonistes\\index.ctp',
+)
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\View\View.php(592): Cake\View\View->_getViewFileName(NULL)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Controller\Controller.php(623): Cake\View\View->render(NULL, NULL)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(125): Cake\Controller\Controller->render()
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProtagonistesController))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#15 {main}
+
+
+2017-05-07 16:41:20 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Phplite could not be found.
+Exception Attributes: array (
+  'class' => 'Phplite',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /phplite/
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:41:33 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Phplite could not be found.
+Exception Attributes: array (
+  'class' => 'Phplite',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /phplite/phpliteadmin.php
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-07 16:42:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Phplite could not be found.
+Exception Attributes: array (
+  'class' => 'Phplite',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /phplite/phpliteadmin.php
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(70): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(90): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(93): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2017-05-08 08:57:48 Error: Fatal Error (1): Call to undefined function App\Controller\randR() in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 35]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 08:57:48 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:35
+2017-05-08 08:57:48 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\randR() in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 35
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\satlan...', 35)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 08:58:38 Error: [BadMethodCallException] Unknown finder method "count"
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\ORM\Table.php(1174): Cake\ORM\Table->callFinder('count', Object(Cake\ORM\Query), Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php(154): Cake\ORM\Table->find('count')
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php(35): App\Controller\ProtagonistesController->randR()
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\ProtagonistesController->index()
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProtagonistesController))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-05-08 08:59:40 Error: Fatal Error (1): Call to undefined function App\Controller\get() in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 156]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 08:59:40 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822
+2017-05-08 08:59:40 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\get() in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 156
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\satlan...', 156)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 08:59:49 Error: [BadMethodCallException] Unknown finder method "count"
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\ORM\Table.php(1174): Cake\ORM\Table->callFinder('count', Object(Cake\ORM\Query), Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php(154): Cake\ORM\Table->find('count')
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php(35): App\Controller\ProtagonistesController->randR()
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Controller\Controller.php(440): App\Controller\ProtagonistesController->index()
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(119): Cake\Controller\Controller->invokeAction()
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProtagonistesController))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\BaseApplication.php(78): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(59): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(92): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\Server.php(80): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\webroot\index.php(37): Cake\Http\Server->run()
+#17 {main}
+
+
+2017-05-08 09:01:35 Error: Fatal Error (1): Call to undefined function App\Controller\get() in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:01:35 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822
+2017-05-08 09:01:35 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\get() in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:01:55 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:01:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:01:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:01:55 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:19 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:25 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:25 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:31 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:39 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:39 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:51 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:06:51 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:07:04 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:07:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:07:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:07:04 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:07:33 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:07:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:07:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:07:33 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:09:03 Error: Fatal Error (1): Call to a member function count() on boolean in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 155]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:09:03 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:155
+2017-05-08 09:09:03 Error: [Cake\Error\FatalErrorException] Call to a member function count() on boolean in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 155
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\Users\\satlan...', 155)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:11:14 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:11:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:11:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:11:14 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:11:43 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 155]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:11:44 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:155
+2017-05-08 09:11:44 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 155
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\Users\\satlan...', 155)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:11:56 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:11:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:11:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:11:56 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:12:41 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:12:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:12:41 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:12:42 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:14:12 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:14:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:14:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:14:12 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:14:24 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:14:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:14:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:14:24 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:16:34 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:16:34 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:16:34 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:18:51 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:18:51 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:18:51 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:19:32 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:19:32 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:19:32 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:20:09 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:20:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:20:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:20:09 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:21:19 Error: Fatal Error (4): syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:21:20 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:21:20 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:21:25 Error: Fatal Error (4): syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:21:25 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:21:25 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:21:31 Error: Fatal Error (4): syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:21:32 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:21:32 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:24:22 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::item() in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:24:22 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:24:22 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::item() in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:24:31 Error: Fatal Error (1): Call to undefined method Cake\ORM\ResultSet::items() in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:24:31 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:24:31 Error: [Cake\Error\FatalErrorException] Call to undefined method Cake\ORM\ResultSet::items() in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:25:34 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:25:34 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:25:34 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:28:04 Error: Fatal Error (4): syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:28:04 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:28:04 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '1' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:28:17 Error: Fatal Error (1): Cannot use object of type Cake\ORM\ResultSet as array in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:28:18 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:28:18 Error: [Cake\Error\FatalErrorException] Cannot use object of type Cake\ORM\ResultSet as array in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Cannot use obje...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:28:45 Error: Fatal Error (4): syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:28:45 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:28:45 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '0' (T_LNUMBER), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:38:08 Error: Fatal Error (1): Call to a member function toArray() on null in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 157]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:38:09 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:157
+2017-05-08 09:38:09 Error: [Cake\Error\FatalErrorException] Call to a member function toArray() on null in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 157
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', 'C:\\Users\\satlan...', 157)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 09:38:31 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:38:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:38:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:38:31 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:38:52 Warning: Warning (512): Unable to emit headers. Headers sent in file=C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php line=822 in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 48]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 48
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:38:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 149]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitStatusLine() - CORE\src\Http\ResponseEmitter.php, line 149
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 54
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:38:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:38:52 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\Debugger.php:822) in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Http\ResponseEmitter.php, line 181]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+header - [internal], line ??
+Cake\Http\ResponseEmitter::emitHeaders() - CORE\src\Http\ResponseEmitter.php, line 181
+Cake\Http\ResponseEmitter::emit() - CORE\src\Http\ResponseEmitter.php, line 55
+Cake\Http\Server::emit() - CORE\src\Http\Server.php, line 105
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2017-05-08 09:42:23 Error: Fatal Error (4): syntax error, unexpected '[', expecting '(' in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php, line 162]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 223
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 105
+[main] - [internal], line ??
+
+
+
+2017-05-08 09:42:23 Warning: Headers already sent in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php:162
+2017-05-08 09:42:23 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '[', expecting '(' in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Controller\ProtagonistesController.php on line 162
+Request URL: /Protagonistes
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(105): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Users\\satlan...', 162)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2017-05-08 10:54:15 Warning: Warning (4096): Object of class Cake\ORM\ResultSet could not be converted to string in [C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\src\Template\Protagonistes\index.ctp, line 18]
+Request URL: /Protagonistes
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 153
+include - APP/Template\Protagonistes\index.ctp, line 18
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 1011
+Cake\View\View::_render() - CORE\src\View\View.php, line 972
+Cake\View\View::render() - CORE\src\View\View.php, line 596
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 623
+Cake\Http\ActionDispatcher::_invoke() - CORE\src\Http\ActionDispatcher.php, line 125
+Cake\Http\ActionDispatcher::dispatch() - CORE\src\Http\ActionDispatcher.php, line 93
+Cake\Http\BaseApplication::__invoke() - CORE\src\Http\BaseApplication.php, line 78
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\RoutingMiddleware::__invoke() - CORE\src\Routing\Middleware\RoutingMiddleware.php, line 59
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Routing\Middleware\AssetMiddleware::__invoke() - CORE\src\Routing\Middleware\AssetMiddleware.php, line 88
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Error\Middleware\ErrorHandlerMiddleware::__invoke() - CORE\src\Error\Middleware\ErrorHandlerMiddleware.php, line 92
+Cake\Http\Runner::__invoke() - CORE\src\Http\Runner.php, line 65
+Cake\Http\Runner::run() - CORE\src\Http\Runner.php, line 51
+Cake\Http\Server::run() - CORE\src\Http\Server.php, line 80
+[main] - ROOT\webroot\index.php, line 37
+
+
+

@@ -26,6 +26,18 @@ class ProtagonistesController extends AppController
 {
 
     /**
+     *
+     * Liste des protagonistes
+     * 
+     */
+    public function index()
+    {
+        $allProtagonistes = $this->get(0);
+        $this->set(compact('allProtagonistes', 'allProtagonistes'));
+    }
+
+
+    /**
      * Insert/update un nouveau protagoniste
      *
      * @param string $value (Nom du protagoniste)
@@ -95,15 +107,13 @@ class ProtagonistesController extends AppController
      *           0 : All
      *           >0 : Id de l'enregistrement   
      *
-     * @return array
+     * @return objet
      * 
      */
     public function get($id=-1)
     {
-        
         // On regarde si $id est bien un INT et qu'il est >=0
         if(is_int($id) AND $id>=0){
-            echo $id;
            if($id==0){
                 $req = $this->Protagonistes->find('all');
             }else{
@@ -134,11 +144,17 @@ class ProtagonistesController extends AppController
      * renvoi un protagoniste aléatoire
      *
      *
-     * @return array [id,nom]
+     * @return objet protgoniste 
      * 
      */
     public function rand()
     {
+        // On compte le nombre d'objets dans la table
+        $totalProtagonistes = $this->get(0);
+        $countProtagonistes = count($totalProtagonistes);
+        $tabProtagonistes = $totalProtagonistes->toArray();
         
+        // On execute un rand avec un -1 pour la selection du 0 dans tabProtagonistes
+        return($tabProtagonistes[rand(1,$countProtagonistes)-1]);
     }
 }

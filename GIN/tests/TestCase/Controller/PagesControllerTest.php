@@ -27,6 +27,18 @@ use Cake\View\Exception\MissingTemplateException;
  */
 class PagesControllerTest extends IntegrationTestCase
 {
+    /**
+     * testMultipleGet method
+     *
+     * @return void
+     */
+    public function testMultipleGet()
+    {
+        $this->get('/');
+        $this->assertResponseOk();
+        $this->get('/');
+        $this->assertResponseOk();
+    }
 
     /**
      * testDisplay method
@@ -69,5 +81,17 @@ class PagesControllerTest extends IntegrationTestCase
         $this->assertResponseContains('Missing Template');
         $this->assertResponseContains('Stacktrace');
         $this->assertResponseContains('not_existing.ctp');
+    }
+
+    /**
+     * Test directory traversal protection
+     *
+     * @return void
+     */
+    public function testDirectoryTraversalProtection()
+    {
+        $this->get('/pages/../Layout/ajax');
+        $this->assertResponseCode(403);
+        $this->assertResponseContains('Forbidden');
     }
 }

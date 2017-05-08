@@ -21,6 +21,7 @@
 use Cake\Core\Plugin;
 use Cake\Routing\RouteBuilder;
 use Cake\Routing\Router;
+use Cake\Routing\Route\DashedRoute;
 
 /**
  * The default class to use for all routes
@@ -40,7 +41,7 @@ use Cake\Routing\Router;
  * `:action` markers.
  *
  */
-Router::defaultRouteClass('DashedRoute');
+Router::defaultRouteClass(DashedRoute::class);
 
 Router::scope('/', function (RouteBuilder $routes) {
     /**
@@ -48,7 +49,7 @@ Router::scope('/', function (RouteBuilder $routes) {
      * its action called 'display', and we pass a param to select the view file
      * to use (in this case, src/Template/Pages/home.ctp)...
      */
-    $routes->connect('/gin/', ['controller' => 'Pages', 'action' => 'display', 'home']);
+    $routes->connect('/', ['controller' => 'Pages', 'action' => 'display', 'home']);
 
     /**
      * ...and connect the rest of 'Pages' controller's URLs.
@@ -71,11 +72,11 @@ Router::scope('/', function (RouteBuilder $routes) {
      * You can remove these routes once you've connected the
      * routes you want in your application.
      */
-    $routes->fallbacks('DashedRoute');
+    $routes->fallbacks(DashedRoute::class);
 });
 
 /**
- * Load all plugin routes.  See the Plugin documentation on
+ * Load all plugin routes. See the Plugin documentation on
  * how to customize the loading of plugin routes.
  */
 Plugin::routes();

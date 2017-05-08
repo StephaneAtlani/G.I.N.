@@ -1,0 +1,1057 @@
+2017-05-07 17:04:36 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Schema" could not be found. in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php on line 327
+Exception Attributes: array (
+  'class' => 'Schema',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('schema')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-05-07 17:05:56 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Schema" could not be found. in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php on line 327
+Exception Attributes: array (
+  'class' => 'Schema',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('schema')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-05-07 17:18:06 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 19:57:11 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 19:59:32 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:05:30 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:06:16 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:09:20 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:10:57 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:15:11 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Shell\OrmCacheShell.php(98): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Shell\OrmCacheShell.php(66): Cake\Shell\OrmCacheShell->_getSchema()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(458): Cake\Shell\OrmCacheShell->clear()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#11 {main}
+
+
+2017-05-07 20:16:59 Error: [InvalidArgumentException] Could not infer database type from driver in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php on line 151
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(83): Migrations\Command\Migrate->getAdapterName('Cake\\Database\\D...')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php(91): Migrations\Command\Migrate->getConfig()
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(206): Phinx\Console\Command\AbstractCommand->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-05-07 20:18:12 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:19:16 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:20:11 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:22:27 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:23:05 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:25:22 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:27:07 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:32:27 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:46:17 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:46:29 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:52:25 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:53:49 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(210): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(165): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(64): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:57:03 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(68): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 20:59:01 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(68): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 21:04:20 Error: [InvalidArgumentException] Could not infer database type from driver in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php on line 158
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(84): Migrations\Command\Migrate->getAdapterName('Mysql')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php(91): Migrations\Command\Migrate->getConfig()
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(64): Phinx\Console\Command\AbstractCommand->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-05-07 21:04:51 Error: [InvalidArgumentException] Could not infer database type from driver in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php on line 158
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\ConfigurationTrait.php(84): Migrations\Command\Migrate->getAdapterName('mysql')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\AbstractCommand.php(91): Migrations\Command\Migrate->getConfig()
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(64): Phinx\Console\Command\AbstractCommand->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#17 {main}
+
+
+2017-05-07 21:08:50 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(68): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 21:09:55 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(68): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 21:26:17 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(68): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 21:27:50 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(68): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\Migrate.php(72): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Migrate.php(65): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#14 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#16 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#17 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#18 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#19 {main}
+
+
+2017-05-07 21:29:21 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(951): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main()
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-07 21:31:15 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(951): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main()
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-07 21:31:47 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(951): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main()
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-07 21:34:50 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(951): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main()
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-07 21:38:27 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(951): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main()
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-07 21:38:38 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(951): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main()
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-07 21:38:40 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(951): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main()
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-07 21:39:00 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php on line 173
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Database\Connection.php(116): Cake\Database\Connection->setDriver('Cake\\Database\\D...', Array)
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionRegistry.php(89): Cake\Database\Connection->__construct(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Datasource\ConnectionManager.php(205): Cake\Core\ObjectRegistry->load('default', Array)
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(951): Cake\Datasource\ConnectionManager::get('default')
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(911): Bake\Shell\Task\ModelTask->_getAllTables()
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(926): Bake\Shell\Task\ModelTask->listAll()
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(90): Bake\Shell\Task\ModelTask->listUnskipped()
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Bake\Shell\Task\ModelTask->main()
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(465): Cake\Console\Shell->runCommand(Array, false, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Cake\Console\Shell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-08 07:17:34 Error: [Symfony\Component\Console\Exception\RuntimeException] Too many arguments, expected arguments "command". in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\ArgvInput.php on line 184
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('protagonistes')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\Input.php(63): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(222): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Seed), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'seed', 'protagonistes')
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2017-05-08 07:18:25 Error: [Symfony\Component\Console\Exception\RuntimeException] Too many arguments, expected arguments "command". in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\ArgvInput.php on line 184
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('protagonistes')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\Input.php(63): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(222): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Seed), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'seed', 'protagonistes')
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
+2017-05-08 07:19:13 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Seed" could not be found. in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php on line 327
+Exception Attributes: array (
+  'class' => 'Seed',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('seed')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-05-08 07:20:05 Error: [Cake\Console\Exception\MissingShellException] Shell class for "Migration" could not be found. in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php on line 327
+Exception Attributes: array (
+  'class' => 'Migration',
+)
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(226): Cake\Console\ShellDispatcher->findShell('migration')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#4 {main}
+
+
+2017-05-08 07:20:13 Error: [InvalidArgumentException] The seed class "protagonistes" does not exist in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Migration\Manager.php on line 451
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\robmorgan\phinx\src\Phinx\Console\Command\SeedRun.php(114): Phinx\Migration\Manager->seed('default', 'protagonistes')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\CommandTrait.php(35): Phinx\Console\Command\SeedRun->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Command\Seed.php(72): Migrations\Command\Seed->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(264): Migrations\Command\Seed->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Seed), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'seed')
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#13 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#14 {main}
+
+
+2017-05-08 07:20:49 Error: [Symfony\Component\Console\Exception\RuntimeException] Too many arguments, expected arguments "command". in C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\ArgvInput.php on line 184
+Stack Trace:
+#0 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\ArgvInput.php(88): Symfony\Component\Console\Input\ArgvInput->parseArgument('protagonistes')
+#1 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Input\Input.php(63): Symfony\Component\Console\Input\ArgvInput->parse()
+#2 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Command\Command.php(222): Symfony\Component\Console\Input\Input->bind(Object(Symfony\Component\Console\Input\InputDefinition))
+#3 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(835): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(200): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Seed), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\symfony\console\Application.php(124): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(101): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\Shell.php(472): Migrations\Shell\MigrationsShell->main('migrations', 'seed', 'protagonistes')
+#8 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\migrations\src\Shell\MigrationsShell.php(156): Cake\Console\Shell->runCommand(Array, true, Array)
+#9 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(230): Migrations\Shell\MigrationsShell->runCommand(Array, true, Array)
+#10 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(182): Cake\Console\ShellDispatcher->_dispatch(Array)
+#11 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\vendor\cakephp\cakephp\src\Console\ShellDispatcher.php(128): Cake\Console\ShellDispatcher->dispatch(Array)
+#12 C:\Users\satlani.DESKTOP-ERJNCFJ\Documents\GitHub\G.I.N\GIN\bin\cake.php(34): Cake\Console\ShellDispatcher::run(Array)
+#13 {main}
+
+
