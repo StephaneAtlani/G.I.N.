@@ -36,7 +36,6 @@ class ProtagonistesController extends AppController
         $this->set(compact('allProtagonistes', 'allProtagonistes'));
     }
 
-
     /**
      * Insert/update un nouveau protagoniste
      *
@@ -98,7 +97,6 @@ class ProtagonistesController extends AppController
         
     }
 
-
     /**
      * recupère le nom d'un protagoniste
      *
@@ -135,10 +133,26 @@ class ProtagonistesController extends AppController
      * @return boleen
      * 
      */
-    public function delete($id='')
-    {
+    public function delete($id)
+     {
+        debug($id);
+        // On vÃ©rifie que Id soit un entier
+        if(is_int($id)){
+            // On recherche si le rÃ©sultat existe dans la base
+            $entity = $this->get($id);
+            if(!empty($entity)){
+                // On supprime l'entrÃ©e
+                $req = $this->Protagonistes->delete($entity->first());
+                $results['etat'] = $req;
+            }else{
+                $results['etat'] = false;
+            }
+        }  
+        else{
+            $results['etat'] = false;
+        }        return $results;
         
-    }
+     }
 
     /**
      * renvoi un protagoniste aléatoire
